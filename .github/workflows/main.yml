@@ -174,7 +174,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ "macos-12" ]
+        runner: [ "macos-latest" ]
         compiler: [ "Clang" ]
         qt: [ 6 ]
         include:
